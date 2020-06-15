@@ -4,7 +4,6 @@ metadata:
   name: gatekeeper-system
   labels:
     admission.gatekeeper.sh/ignore: no-self-managing
-    configmanagement.gke.io/configmanagement: config-management
     control-plane: controller-manager
     gatekeeper.sh/system: "yes"
     k8s-app: kubernetes-config-management
