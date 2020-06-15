@@ -2,3 +2,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: gatekeeper-system
+  labels:
+    admission.gatekeeper.sh/ignore: no-self-managing
+    control-plane: controller-manager
+    gatekeeper.sh/system: "yes"
+    k8s-app: kubernetes-config-management
+    policycontroller.configmanagement.gke.io: "true"
