@@ -8,9 +8,3 @@ metadata:
     gatekeeper.sh/system: "yes"
     k8s-app: kubernetes-config-management
     policycontroller.configmanagement.gke.io: "true"
-  ownerReferences:
-  - apiVersion: configmanagement.gke.io/v1
-    blockOwnerDeletion: true
-    controller: true
-    kind: ConfigManagement
-    name: config-management
