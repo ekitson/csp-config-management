@@ -2,7 +2,7 @@ apiVersion: config.gatekeeper.sh/v1alpha1
 kind: Config
 metadata:
   annotations:
-    configmanagement.gke.io/managed: "enabled"
+    # configmanagement.gke.io/managed: "disabled"
   name: config
   namespace: "gatekeeper-system"
 spec:
